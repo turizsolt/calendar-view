@@ -1,0 +1,19 @@
+{
+  "name": "calendar-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/turizsolt/calendar-view.git",
+  "author": "turizsolt <turi.zsolt.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "prepare": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2"
+  }
+}
